@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Daniella Fernandes | Junior Web Developer</title>
+    <meta name="Daniella's profile" content="Junior Web Developer seeking work">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class='header'>
+      <ul>
+        <li class="bubbly-button"><a href="#">ABOUT</a></li>
+        <li class="bubbly-button"><a href="https://www.linkedin.com/in/daniella-ines-fernandes/" target="_blank">LINKEDIN</a></li>
+        <i class="fab fa-dyalog"></i>
+        <li class="bubbly-button"><a href="https://github.com/daniellafernandes14" target="_blank">GITHUB</a></li>
+        <li class="bubbly-button"><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class='container'>
+      <h1>Daniella Fernandes</h1>
+      <h2><span id="typing"></span>Web Developer</h2>
+      <div class='svg-container'>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#B8E2C8" fill-opacity="0.8" d="M0,32L1440,256L1440,320L0,320Z"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div class='portfolio-card'>
+      <a href="http://www.papayapapaya.com/" target="_blank"><img src="images/papaya.png"></a>
+    </div>
+
+    <script src="typed.js"></script>
+    <script>
+      const changeJobTitle = new Typed('#typing', {
+        strings: [
+          "Front-End",
+          "Back-End",
+          "Full-Stack"
+        ],
+        typeSpeed: 50,
+        smartBackspace: true,
+        loop: true
+      });
+    </script>
+    <script src="portfolio.js"></script>
+  </body>
+
+</html>
