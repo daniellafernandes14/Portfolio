@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(222, 183, 208);
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#image-icon {
+  height: 50px;
+}
+
+.header {
+  background-color: rgb(222, 183, 208);
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.container {
+  height: 10em;
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column wrap;
+}
+
+.container h1 {
+  margin: auto auto 0 auto;
+}
+
+.container h2 {
+  margin: 0 auto auto auto;
+}
