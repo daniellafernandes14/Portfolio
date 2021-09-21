@@ -1,12 +1,19 @@
 .portfolio-card {
   display: flex;
   justify-content: space-between;
+  margin: 5px;
   align-items: center;
   width: 60%;
-  border: 1px solid black;
-  overflow: visible;
+  background-color: rgba(184,226,200, 0.7);
 }
 
 .portfolio-card img {
   width: 100%;
+  height: 100%;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-card p {
+  margin-left: 20px;
 }
