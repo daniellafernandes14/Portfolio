@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/body.css">
     <link rel="stylesheet" href="style/btn-hover.css">
     <link rel="stylesheet" href="style/cards.css">
+    <link rel="stylesheet" href="style/modal.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,15 @@
       <ul>
         <li class="bubbly-button"><a href="#">ABOUT</a></li>
         <li class="bubbly-button"><a href="https://www.linkedin.com/in/daniella-ines-fernandes/" target="_blank">LINKEDIN</a></li>
-        <i class="fab fa-dyalog"></i>
+        <button><i data-modal-target="#modal" class="fab fa-dyalog"></i></button>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="images/businesscard.png">
+          </div>
+        </div>
         <li class="bubbly-button"><a href="https://github.com/daniellafernandes14" target="_blank">GITHUB</a></li>
         <li class="bubbly-button"><a href="#">CONTACT</a></li>
       </ul>
@@ -56,6 +65,7 @@
       });
     </script>
     <script src="javascript/animate-btn.js"></script>
+    <script src="javascript/modal.js"></script>
   </body>
 
 </html>
