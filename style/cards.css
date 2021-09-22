@@ -1,18 +1,26 @@
 .portfolio-card {
   display: grid;
-  justify-content: space-evenly;
-  /* margin: 0 auto; */
-  /* align-items: center; */
-  /* width: 60%; */
-  /* background-color: rgba(184,226,200, 0.7); */
-  /* background-color: #ff0081; */
-  /* border-radius: 5px; */
+  grid-gap: 0px;
+  align-self: center;
+  max-width: 60vh;
+  max-height: 60vh;
 }
 
 .portfolio-card img {
-  border-radius: 5px;
+  border-radius: 1px;
+  opacity: 0.9;
+  max-height: 60vh;
+  max-width: 60vh;
 }
 
 .projects {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects h1 {
+  background-color: white;
+  padding: 50px;
 }
