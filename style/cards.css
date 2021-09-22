@@ -1,7 +1,7 @@
 .portfolio-card {
   display: grid;
   justify-content: space-evenly;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* align-items: center; */
   /* width: 60%; */
   /* background-color: rgba(184,226,200, 0.7); */
