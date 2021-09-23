@@ -5,7 +5,8 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #cc0067;
+  font-weight: bolder;
 }
 
 #image-icon {
@@ -14,6 +15,10 @@ a {
 
 .header {
   background-color: rgb(222, 183, 208);
+}
+
+i {
+  color: white;
 }
 
 .header ul {
@@ -30,10 +35,17 @@ a {
   flex-flow: column wrap;
 }
 
-.container h1 {
+.container h3 {
   margin: auto auto 0 auto;
+  font-weight: bolder;
+  color: white;
+  font-family: 700;
+  font-size: 30px;
 }
 
-.container h2 {
+.container h1 {
   margin: 0 auto auto auto;
+  font-weight: lighter;
+  color: white;
+  font-size: 60px;
 }
