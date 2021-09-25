@@ -1,16 +1,15 @@
 .portfolio-card {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 0px;
   align-self: center;
-  max-width: 60vh;
-  max-height: 60vh;
 }
 
 .portfolio-card img {
   border-radius: 1px;
   opacity: 0.9;
-  max-height: 60vh;
-  max-width: 60vh;
+  height: 50vh;
+  width: 50vh;
 }
 
 #projects {
