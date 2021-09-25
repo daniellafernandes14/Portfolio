@@ -1,7 +1,7 @@
-.arrow-down {
+.arrow-down a {
   text-align: center;
   position: absolute;
   bottom: 5%;
   left: 50%;
-  font-size: 25px;
+  font-size: 20px;
 }

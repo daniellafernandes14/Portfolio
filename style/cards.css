@@ -13,14 +13,14 @@
   max-width: 60vh;
 }
 
-.projects {
+#projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.projects h1 {
+#projects h1 {
   background-color: white;
   padding: 50px;
 }
