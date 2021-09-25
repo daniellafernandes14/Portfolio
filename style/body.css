@@ -1,12 +1,11 @@
 body {
-  background-color: rgb(222, 183, 208);
+  background: linear-gradient(rgb(222, 183, 208), #9198e5);
   font-family: 'Quicksand', sans-serif;
 }
 
 a {
   text-decoration: none;
   color: #cc0067;
-  /* font-weight: bolder; */
 }
 
 #image-icon {
