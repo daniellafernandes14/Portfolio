@@ -6,10 +6,41 @@
 }
 
 .portfolio-card img {
-  border-radius: 1px;
+  border-radius: 10px;
   opacity: 0.9;
   height: 50vh;
   width: 50vh;
+  box-shadow: 0 0 10px grey;
+}
+
+.portfolio-card:hover img .overlay {
+  width: 33.1%;
+}
+
+.portfolio-card img .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: .8;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.portfolio-card img .overlay .text {
+  font-weight: bold;
+  background-color: transparent;
+  white-space: nowrap;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 45%;
+  left: 30%;
+  height: auto;
+  color: white;
 }
 
 #projects {
