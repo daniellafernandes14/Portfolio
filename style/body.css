@@ -1,15 +1,6 @@
 body {
-  /* background: linear-gradient(rgb(222, 183, 208), #9198e5); */
+  background: linear-gradient(rgb(222, 183, 208), #9198e5, rgb(222, 183, 208));
   font-family: 'Quicksand', sans-serif;
-}
-
-.page-1 {
-  background: linear-gradient(rgb(222, 183, 208), #9198e5);
-}
-
-.page-2 {
-  background: linear-gradient(#9198e5, rgb(222, 183, 208));
-  padding: 100px;
 }
 
 a {
