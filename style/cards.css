@@ -10,11 +10,9 @@
   opacity: 0.9;
   height: 50vh;
   width: 50vh;
-}
-
-img {
   box-shadow: 0 0 10px grey;
 }
+
 /* */
 .image {
   position: relative;
@@ -44,8 +42,9 @@ img {
   text-align: center;
 }
 
-.image .overlay {
+.image .overlay:hover {
   opacity: 1;
+  background-color: rgba(200, 200, 200, 0.5);
 }
 
 .image .overlay .text {
