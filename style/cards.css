@@ -30,7 +30,7 @@
   left: 0;
   color: white;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-  /* background-color: rgba(200, 200, 200, 0.5); */
+  background-color: rgba(200, 200, 200, 0.5);
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -44,7 +44,6 @@
 
 .image .overlay:hover {
   opacity: 1;
-  background-color: rgba(200, 200, 200, 0.5);
 }
 
 .image .overlay .text {
@@ -56,10 +55,9 @@
 
 .image .overlay:hover .text {
   opacity: 1;
-  transform: translateY(250px);
-  -webkit-transform: translateY(250px);
+  transform: translateY(120px);
+  -webkit-transform: translateY(120px);
 }
-/* */
 
 #projects {
   display: flex;
