@@ -5,6 +5,15 @@
   align-self: center;
 }
 
+@media (max-width: 850px) {
+  .portfolio-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    align-self: center;
+  }
+}
+
 .portfolio-card img {
   border-radius: 10px;
   opacity: 0.9;
