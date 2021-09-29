@@ -17,28 +17,30 @@
   </head>
 
   <body>
-    <div class='header'>
-      <ul>
-        <li class="bubbly-button"><a href="#">ABOUT</a></li>
-        <li class="bubbly-button"><a href="https://www.linkedin.com/in/daniella-ines-fernandes/" target="_blank">LINKEDIN</a></li>
-        <button><i data-modal-target="#modal" class="fab fa-dyalog"></i></button>
-        <div class="modal" id="modal">
-          <div class="modal-header">
-            <button data-close-button class="close-button">&times;</button>
+    <div class='frontpage'>
+      <div class='header'>
+        <ul>
+          <li class="bubbly-button"><a href="#">ABOUT</a></li>
+          <li class="bubbly-button"><a href="https://www.linkedin.com/in/daniella-ines-fernandes/" target="_blank">LINKEDIN</a></li>
+          <li><button><i data-modal-target="#modal" class="fab fa-dyalog"></i></button></li>
+          <div class="modal" id="modal">
+            <div class="modal-header">
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img src="images/businesscard.png">
+            </div>
           </div>
-          <div class="modal-body">
-            <img src="images/businesscard.png">
-          </div>
+          <li class="bubbly-button"><a href="https://github.com/daniellafernandes14" target="_blank">GITHUB</a></li>
+          <li class="bubbly-button"><a href="#">CV</a></li>
+        </ul>
+      </div>
+      <div class='container'>
+        <h3>DANIELLA FERNANDES</h3>
+        <h1><span id="typing"></span>Web Developer</h1>
+        <div class="arrow-down">
+          <a href="#projects"><i class="fas fa-chevron-down"></i></a>
         </div>
-        <li class="bubbly-button"><a href="https://github.com/daniellafernandes14" target="_blank">GITHUB</a></li>
-        <li class="bubbly-button"><a href="#">CV</a></li>
-      </ul>
-    </div>
-    <div class='container'>
-      <h3>DANIELLA FERNANDES</h3>
-      <h1><span id="typing"></span>Web Developer</h1>
-      <div class="arrow-down">
-        <a href="#projects"><i class="fas fa-chevron-down"></i></a>
       </div>
     </div>
 
@@ -49,14 +51,17 @@
           <a href="https://eocene698.herokuapp.com/" target="_blank"><img src="images/eocene.png">
           <div class='overlay'>
             <div class='text'><h3>Eocene</h3></div>
-            <div class='text'><p>words words words</p></div>
+            <div class='text'><p>Marketplace for users to rent out extreme sports equipment.</p>
+              <p>RoR app created with HTML5, SCSS, JavaScript (ES6), Post sqlite. Deployed with Heroku.</p>
+            </div>
           </div></a>
         </div>
         <div class='image'>
           <a href="http://www.papayapapaya.com/" target="_blank"><img src="images/papaya.png">
           <div class='overlay'>
             <div class='text'><h3>Papaya</h3></div>
-            <div class='text'><p>words words words</p></div>
+            <div class='text'><p>A responsive web app that connects volunteers to nearby events held by charities, local communities and other volunteers.</p>
+            <p>RoR app created with HTML5, SCSS, JavaScript (ES6), Post sqlite. Deployed with Heroku.</p></div>
           </div></a>
         </div>
       </div>

@@ -47,7 +47,6 @@
 }
 
 .image .overlay .text {
-  height: 0;
   opacity: 1;
   transition-delay: 0s;
   transition-duration: 0.4s;
@@ -55,8 +54,8 @@
 
 .image .overlay:hover .text {
   opacity: 1;
-  transform: translateY(120px);
-  -webkit-transform: translateY(120px);
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
 }
 
 #projects {
