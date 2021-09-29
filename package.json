@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "es6-scroll-to": "^1.1.2",
     "typed.js": "^2.0.12",
     "wc-typed-js": "^1.0.1"
   }

@@ -72,11 +72,5 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-#projects h1 {
-  color: white;
-  padding: 50px;
-  font-weight: lighter;
-  font-size: 80px;
+  padding-bottom: 70px;
 }

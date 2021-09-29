@@ -3,26 +3,31 @@
 
 
 "@polymer/lit-element@^0.6.1":
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.6.5.tgz#c614b9638a0809883ba52bf43fca5b6ed51b7aa8"
-  integrity sha512-KVjuU/5Ugp6PFob6YEe1/B4GCKjqhEy9Tj954shL6d3DohT2sNAmbX9QfbXvcZ8RhbVELK6dzbN3i2BRA3mOKg==
+  "integrity" "sha512-KVjuU/5Ugp6PFob6YEe1/B4GCKjqhEy9Tj954shL6d3DohT2sNAmbX9QfbXvcZ8RhbVELK6dzbN3i2BRA3mOKg=="
+  "resolved" "https://registry.npmjs.org/@polymer/lit-element/-/lit-element-0.6.5.tgz"
+  "version" "0.6.5"
   dependencies:
-    lit-html "^1.0.0-rc.1"
+    "lit-html" "^1.0.0-rc.1"
 
-lit-html@^1.0.0-rc.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.4.1.tgz#0c6f3ee4ad4eb610a49831787f0478ad8e9ae5e0"
-  integrity sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==
+"es6-scroll-to@^1.1.2":
+  "integrity" "sha512-YW+J8QSjPWHspw8LoNLxGpOt6CUtWPGpRFWyqdciL8ZCPp90J3YYNXgZzes/o5L4ql0lRM6f0iByVSrEVUTK1A=="
+  "resolved" "https://registry.npmjs.org/es6-scroll-to/-/es6-scroll-to-1.1.2.tgz"
+  "version" "1.1.2"
 
-typed.js@^2.0.12, typed.js@^2.0.9:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.12.tgz#246aff074c8e18d32ec27acb7be15094ac0bc0e1"
-  integrity sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==
+"lit-html@^1.0.0-rc.1":
+  "integrity" "sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA=="
+  "resolved" "https://registry.npmjs.org/lit-html/-/lit-html-1.4.1.tgz"
+  "version" "1.4.1"
 
-wc-typed-js@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/wc-typed-js/-/wc-typed-js-1.0.1.tgz#b0a6055a974fad765e6380f9eee60185cde774fb"
-  integrity sha512-O2dDdZ2ILTWu5Y1BRHpkHDa8QuWs8TbMk6d5/k4G2SGRMlhz/HADAFVo86TGpZd9F2LpNlCC9suH7XSUUPGp5g==
+"typed.js@^2.0.12", "typed.js@^2.0.9":
+  "integrity" "sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw=="
+  "resolved" "https://registry.npmjs.org/typed.js/-/typed.js-2.0.12.tgz"
+  "version" "2.0.12"
+
+"wc-typed-js@^1.0.1":
+  "integrity" "sha512-O2dDdZ2ILTWu5Y1BRHpkHDa8QuWs8TbMk6d5/k4G2SGRMlhz/HADAFVo86TGpZd9F2LpNlCC9suH7XSUUPGp5g=="
+  "resolved" "https://registry.npmjs.org/wc-typed-js/-/wc-typed-js-1.0.1.tgz"
+  "version" "1.0.1"
   dependencies:
     "@polymer/lit-element" "^0.6.1"
-    typed.js "^2.0.9"
+    "typed.js" "^2.0.9"

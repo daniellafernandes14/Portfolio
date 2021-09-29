@@ -8,6 +8,13 @@ a {
   color: #cc0067;
 }
 
+h1 {
+  color: white;
+  padding: 50px;
+  font-weight: lighter;
+  font-size: 80px;
+}
+
 #image-icon {
   height: 50px;
 }
@@ -43,4 +50,13 @@ i {
   font-weight: lighter;
   color: white;
   font-size: 60px;
+}
+
+@media (max-width: 900px) {
+  .container h1 {
+    margin: 0 auto auto auto;
+    font-weight: lighter;
+    color: white;
+    font-size: 30px;
+  }
 }
