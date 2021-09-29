@@ -1,5 +1,5 @@
 .modal {
-  position: fixed;
+  position: absolute;
   top: 20%;
   left: 51%;
   transform: translate(-50%, -50%) scale(0);
