@@ -13,9 +13,13 @@
 #button {
   width: fit-content;
   margin: 0 auto;
-  color: #cc0067;
+  color: #CC0067;
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 30px;
+  padding: 10px;
+  /* background-color: rgb(204,0,103); */
+  border-radius: 10px;
+  border: 1px solid #CC0067;
 }
 
 .hidden {
