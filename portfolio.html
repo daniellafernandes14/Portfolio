@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/arrow.css">
     <link rel="stylesheet" href="style/cv.css">
     <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,22 +50,30 @@
     <div id='projects'>
       <h1>PROJECTS</h1>
       <div class='portfolio-card'>
-        <div class='image'>
-          <a href="https://eocene698.herokuapp.com/" target="_blank"><img src="images/eocene.png">
-          <div class='overlay'>
-            <div class='text'><h3>Eocene</h3></div>
-            <div class='text'><p>Marketplace for users to rent out extreme sports equipment.</p>
-              <p>RoR app created with HTML5, SCSS, JavaScript (ES6), Post sqlite. Deployed with Heroku.</p>
-            </div>
-          </div></a>
+        <div  data-aos="slide-right"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out">
+          <div class='image'>
+            <a href="https://eocene698.herokuapp.com/" target="_blank"><img src="images/eocene.png">
+            <div class='overlay'>
+              <div class='text'><h3>Eocene</h3></div>
+              <div class='text'><p>Marketplace for users to rent out extreme sports equipment.</p>
+                <p>RoR app created with HTML5, SCSS, JavaScript (ES6), Post sqlite. Deployed with Heroku.</p>
+              </div>
+            </div></a>
+          </div>
         </div>
-        <div class='image'>
-          <a href="http://www.papayapapaya.com/" target="_blank"><img src="images/papaya.png">
-          <div class='overlay'>
-            <div class='text'><h3>Papaya</h3></div>
-            <div class='text'><p>A responsive web app that connects volunteers to nearby events held by charities, local communities and other volunteers.</p>
-            <p>RoR app created with HTML5, SCSS, JavaScript (ES6), Post sqlite. Deployed with Heroku.</p></div>
-          </div></a>
+        <div  data-aos="slide-left"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out">
+          <div class='image'>
+            <a href="http://www.papayapapaya.com/" target="_blank"><img src="images/papaya.png">
+            <div class='overlay'>
+              <div class='text'><h3>Papaya</h3></div>
+              <div class='text'><p>A responsive web app that connects volunteers to nearby events held by charities, local communities and other volunteers.</p>
+              <p>RoR app created with HTML5, SCSS, JavaScript (ES6), Post sqlite. Deployed with Heroku.</p></div>
+            </div></a>
+          </div>
         </div>
       </div>
     </div>
@@ -97,6 +106,10 @@
     </script>
     <script src="javascript/animate-btn.js"></script>
     <script src="javascript/modal.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="javascript/hide-btn.js"></script>
   </body>
 
