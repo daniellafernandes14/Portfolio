@@ -1,10 +1,7 @@
 #about {
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
 #about p {
   color: white;
-  line-height: 0.2;
 }
