@@ -10,9 +10,8 @@ a {
 
 h1 {
   color: white;
-  padding: 50px;
   font-weight: lighter;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 #image-icon {
@@ -59,6 +58,6 @@ i {
     margin: 0 auto auto auto;
     font-weight: lighter;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
   }
 }

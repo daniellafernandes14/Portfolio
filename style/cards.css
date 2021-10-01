@@ -1,16 +1,26 @@
-.portfolio-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0px;
-  align-self: center;
-}
-
-@media (max-width: 850px) {
-  .portfolio-card {
+@media (max-width: 1024px) {
+  #portfolio-card {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0px;
     align-self: center;
+  }
+}
+
+.portfolio-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  margin: 0 auto;
+}
+
+@media (max-width: 300px) {
+  .portfolio-card img {
+    border-radius: 10px;
+    opacity: 0.9;
+    height: 45vh;
+    width: 90vw;
+    box-shadow: 0 0 10px grey;
   }
 }
 
