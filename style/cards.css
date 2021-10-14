@@ -82,5 +82,13 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding-bottom: 110px;
+  padding-bottom: 50px;
+}
+
+.youtube {
+  font-size: 80px;
+}
+
+.youtube :hover {
+  color: rgb(216, 213, 213);
 }
